@@ -1,0 +1,34 @@
+{
+  "name": "simple-next-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "antd": "4.16.13",
+    "babel-plugin-add-react-displayname": "^0.0.5",
+    "component-lib": "file:./component-lib-1.3.0.tgz",
+    "dayjs": "^1.10.7",
+    "next": "12.0.2",
+    "rc-picker": "^2.5.19",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@types/react": "^17.0.37",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-root-import": "^6.6.0",
+    "eslint": "<8.0.0",
+    "eslint-config-next": "12.0.7",
+    "next-compose-plugins": "^2.2.1",
+    "next-plugin-antd-less": "^1.6.0",
+    "typescript": "^4.5.4"
+  }
+}
